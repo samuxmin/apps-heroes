@@ -30,7 +30,7 @@ export const HeroScreen = ({ history }) => {
         <div img-container>
             <h1>{superhero}</h1>
             <img className="superheroe"
-                src={`../assets/heroes/${heroeId}.jpg`}
+                src={`./assets/heroes/${heroeId}.jpg`}
                 alt={superhero}
             />
         </div>

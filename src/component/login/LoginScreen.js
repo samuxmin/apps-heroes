@@ -17,7 +17,7 @@ export const LoginScreen = ({history}) => {
         dispatch(action)
         history.replace(lastPath)
     }
-    console.log(username)
+
     return (
         <div className="app">
             <h1>Login Screen</h1>
@@ -38,7 +38,7 @@ export const LoginScreen = ({history}) => {
                 placeholder='Password here...' 
                 name="password" value={password} 
                 onChange={handleInputChange}/>
-            <p>(Cualquer contraseña es valida)</p>
+            <p>(Cualquier contraseña es valida)</p>
             <button 
                 className="btn btn-login"
                 onClick={handleLogin}
