@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/component/login/login.css"],"names":[],"mappings":"AAAA,aACI,WAAY,CACZ,UAAY,CACZ,WACJ","file":"main.f418c960.chunk.css","sourcesContent":[".login-input{\n    height: 30px;\n    color: black;\n    margin: 10px;\n}"]}
