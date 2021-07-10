@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> debe de mostrar el login si no está autenticado 1`] = `
+<div>
+  <div
+    className="app"
+  >
+    <h1>
+      Login Screen
+    </h1>
+    <hr />
+    <label
+      htmlFor="username"
+    >
+      <b>
+        Username
+      </b>
+    </label>
+    <input
+      autoComplete="off"
+      className="login-input"
+      name="username"
+      onChange={[Function]}
+      placeholder="Username here..."
+      type="text"
+      value=""
+    />
+    <br />
+    <label
+      htmlFor="password"
+    >
+      <b>
+        Password
+      </b>
+    </label>
+    <input
+      className="login-input"
+      name="password"
+      onChange={[Function]}
+      placeholder="Password here..."
+      type="password"
+      value=""
+    />
+    <p>
+      (Cualquier contraseña es valida)
+    </p>
+    <button
+      className="btn btn-login"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;

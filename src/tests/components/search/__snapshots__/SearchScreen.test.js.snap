@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchScreen /> debe de mostrar al heroe y el input con el valor del queryString 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <div
+    className="search-container"
+  >
+    <div
+      className="search"
+    >
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="search-input"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-search"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="search-results"
+    >
+      <h2>
+        Results
+      </h2>
+      <hr />
+      <div
+        className="card-container"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="img-container"
+          >
+            <img
+              alt="Batman"
+              src="./assets/heroes/dc-batman.jpg"
+            />
+          </div>
+          <div
+            className="card-text"
+          >
+            <h3>
+              Batman
+            </h3>
+            <br />
+            <p>
+              Bruce Wayne
+            </p>
+            <br />
+            <small>
+              Detective Comics #27
+            </small>
+            <br />
+            <a
+              className="btn"
+              href="/hero/dc-batman"
+              onClick={[Function]}
+            >
+              Mas...
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Pruebas en <SearchScreen /> debe de mostrarse correctamente con valores por defecto 1`] = `
+Array [
+  <h1>
+    Search
+  </h1>,
+  <hr />,
+  <div
+    className="search-container"
+  >
+    <div
+      className="search"
+    >
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="search-input"
+          name="search"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-search"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="search-results"
+    >
+      <h2>
+        Results
+      </h2>
+      <hr />
+      <div
+        className="aviso"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>,
+]
+`;
